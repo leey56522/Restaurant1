@@ -1,0 +1,105 @@
+body {
+    font-family: 'helvetica';
+    font-size: 16px;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 65px;
+    position:fixed;
+    background-color: black;
+}
+
+header img {
+    height: 50px;
+    width: auto;
+}
+
+header ul {
+    border-right: 3em solid black;
+}
+
+header li {
+    display: inline-flex;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+header a {
+    color: seashell;
+    font-weight:700;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header a:hover, a:active {
+    background: #506e9b;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.5s;
+    text-shadow: 2px 2px black;
+}
+
+header a:visited {
+    color: seashell;
+    font-weight:700;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.banner1 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 450px;
+    width: 100%;
+    background-image: url(./img/ishgard.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner1 ul {
+    list-style-type: none;
+}
+
+#center-text {
+    color: black;
+    font-weight: 800;
+    font-size: 70px;
+    text-shadow: 2px 2px seashell;
+    font-style: italic;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-decoration: none;
+}
+
+#reservation a {
+    background: #81a4da;
+    border-radius: 5px;
+    box-shadow: 2px 2px black;
+    font-size: 30px;
+    text-decoration: none;
+    color:black;
+    font-weight: 700;
+    padding: 10px 20px;
+}
+
+
+#reservation a:hover, a:active{
+    background:black;
+    color: seashell;
+    transition: 0.5s;
+}
