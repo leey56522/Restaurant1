@@ -103,3 +103,64 @@ header a:visited {
     color: seashell;
     transition: 0.5s;
 }
+
+.banner2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: #6582ac;
+    color: black;
+    padding: 40px 0px; 
+}
+
+.banner2 h2 {
+    font-size: 40px;
+    line-height: 0.5;
+}
+
+.banner2 h4 {
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.blockquote {
+    max-width: 600px;
+    margin: 10px 30px;
+    padding: 25px;
+    background: #8da7cc;
+    border: 1px solid #556a8a;
+    box-sizing: border-box;
+}
+
+.blockquote--bordered {
+    border-left-width: 10px;
+}
+
+.blockquote__text {
+    font-style: italic;
+    font-size: 1.7em;
+    line-height: 0.3;
+    font-weight: 400;
+}
+
+.blockquote__text--credit {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.blockquote__text--credit::before {
+    content: "\2014\0020"
+}
+
+.blockquote img {
+    height: 40px;
+    width: auto;
+}
+
+.banner2 h3 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 2px;
+}
