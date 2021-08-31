@@ -1,0 +1,100 @@
+body {
+    font-family: 'helvetica';
+    font-size: 16px;
+    color: black;
+    background-color: #6582ac;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 65px;
+    position:fixed;
+    color: seashell;
+    background-color: black;
+}
+
+header img {
+    height: 50px;
+    width: auto;
+}
+
+header ul {
+    border-right: 3em solid black;
+}
+
+header li {
+    display: inline-flex;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+header a {
+    color: seashell;
+    font-weight:700;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header a:hover, a:active {
+    background: #506e9b;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.5s;
+    text-shadow: 2px 2px black;
+}
+
+header a:visited {
+    color: seashell;
+    font-weight:700;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#space {
+    font-size: 0px;
+    margin-bottom: 120px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    height: 80%;
+    overflow:auto;
+}
+
+.name {
+    align-self: flex-start;
+    margin: 20px 0px 10px 70px;
+}
+
+.email {
+    align-self: flex-start;
+    margin-left: 70px;
+}
+
+.submission {
+    margin-bottom: 20px;
+}
+
+.textbox {
+    margin-top: 20px;
+}
+
+#overlay {
+    text-align: center;
+    margin: auto;
+    width: 45%;
+    background-color: #8da7cc;
+    border: 3px solid #556a8a;
+    border-radius: 40px;
+}
