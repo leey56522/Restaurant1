@@ -164,3 +164,64 @@ header a:visited {
     font-size: 20px;
     line-height: 2px;
 }
+
+.grid_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.cube1 {
+    color: seashell;
+    background: black;
+    padding: 100px 0px;
+}
+
+.loc {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 0.5;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.cube2 {
+    font-size: 0px;
+    background-image: url(./img/coq.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0px;
+}
+
+.cube3 {
+    font-size: 0px;
+    background-image: url(./img/vege.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0px;
+}
+
+.cube4 {
+    color: seashell;
+    background: black;
+    padding: 100px 0px;
+}
+
+footer {
+    border-top: 4px solid #6582ac;
+    border-bottom: 4px solid #6582ac;
+    height: auto;
+    background: #81a4da;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    line-height: 0.2;
+}
+
+#copyright {
+    align-items: start;
+}
