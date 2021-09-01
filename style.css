@@ -36,14 +36,14 @@ header li {
     font-size: 20px;
 }
 
-header a {
+.navigation a {
     color: seashell;
     font-weight:700;
     text-decoration: none;
     text-transform: uppercase;
 }
 
-header a:hover, a:active {
+.navigation a:hover, a:active {
     background: #506e9b;
     padding: 5px;
     border-radius: 5px;
@@ -51,7 +51,7 @@ header a:hover, a:active {
     text-shadow: 2px 2px black;
 }
 
-header a:visited {
+.navigationeader a:visited {
     color: seashell;
     font-weight:700;
     text-decoration: none;
@@ -174,7 +174,14 @@ header a:visited {
 .cube1 {
     color: seashell;
     background: black;
-    padding: 100px 0px;
+    padding-top: 30px;
+}
+
+#map {
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 400px;
 }
 
 .loc {
@@ -193,7 +200,7 @@ header a:visited {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 100px 0px;
+    padding: 20px 0px;
 }
 
 .cube3 {
@@ -202,13 +209,16 @@ header a:visited {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 100px 0px;
+    padding: 20px 0px;
 }
 
 .cube4 {
     color: seashell;
     background: black;
-    padding: 100px 0px;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 footer {

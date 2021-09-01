@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <img src="./img/logo.png" alt="Logo">
+        <a href="#"><img src="./img/logo.png" alt="Logo"></a>
         <ul class="navigation">
             <li><a class="active" href="#">Home</a></li>
             <li><a href="./about.html">About Us</a></li>
@@ -35,6 +35,21 @@
     </div>
     <div class="grid_container">
         <div class="cube1">
+            <div id="map"></div>
+            <script>
+                function initMap() {
+                    var location = {lat: 35.69797, lng: 139.77036};
+                    var map = new google.maps.Map(document.getElementById("map"), {
+                        zoom: 15,
+                        center: location
+                    });
+                    var marker = new google.maps.Marker({
+                        position: location,
+                        map: map
+                    });
+                }
+            </script>
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSzyX0kEAwEY-nklwBPr4ru2qZ6m9Tajc&callback=initMap"></script>
             <h2 class="title">LOCATION</h2> 
             <h5 class="loc">480 Halone Street, Ishgard, HW 24992</h5>
         </div>

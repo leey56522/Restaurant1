@@ -37,14 +37,14 @@ header li {
     font-size: 20px;
 }
 
-header a {
+.navigation a {
     color: seashell;
     font-weight:700;
     text-decoration: none;
     text-transform: uppercase;
 }
 
-header a:hover, a:active {
+.navigation a:hover, a:active {
     background: #506e9b;
     padding: 5px;
     border-radius: 5px;
@@ -52,7 +52,7 @@ header a:hover, a:active {
     text-shadow: 2px 2px black;
 }
 
-header a:visited {
+.navigation a:visited {
     color: seashell;
     font-weight:700;
     text-decoration: none;
