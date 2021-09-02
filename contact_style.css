@@ -2,7 +2,7 @@ body {
     font-family: 'helvetica';
     font-size: 16px;
     color: black;
-    background-color: #6582ac;
+    background-image: url(./img/wp4738777-roylt-wallpapers.jpg);
     text-align: center;
     padding: 0;
     margin: 0;
@@ -97,4 +97,10 @@ form {
     background-color: #8da7cc;
     border: 3px solid #556a8a;
     border-radius: 40px;
+}
+
+#leaveUs {
+    font-size: 50px;
+    color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
