@@ -1,0 +1,119 @@
+body {
+    font-family: 'helvetica';
+    font-size: 16px;
+    color: black;
+    background-image: url(./img/wp4738777-roylt-wallpapers.jpg);
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 65px;
+    position:fixed;
+    color: seashell;
+    background-color: black;
+}
+
+header img {
+    height: 50px;
+    width: auto;
+}
+
+header ul {
+    border-right: 3em solid black;
+}
+
+header li {
+    display: inline-flex;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navigation a {
+    color: seashell;
+    font-weight:700;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navigation a:hover, a:active {
+    background: #506e9b;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.5s;
+    text-shadow: 2px 2px black;
+}
+
+.navigation a:visited {
+    color: seashell;
+    font-weight:700;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#space {
+    font-size: 0px;
+    margin-bottom: 120px;
+}
+
+#ourMenu {
+    font-size: 50px;
+    color: seashell;
+    text-shadow: 2px 2px black;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid #556a8a; 
+    opacity: 0.7;
+}
+
+.list {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0px;
+    width: 35%;
+    margin-bottom: 40px;
+    background: rgba(255, 255, 255, 0.8);
+    color: black;
+    box-shadow: 2px 2px black;
+    border-radius: 10px;
+}
+
+.list h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-shadow: 2px 2px seashell;
+}
+
+.items {
+    text-align: left;
+    width: 80%;
+    border-left: 3px solid #556a8a;
+    padding: 5px 0px 10px 20px;
+    margin-left: 30px;
+}
+
+.textbox {
+    display: flex;
+    flex-flow: wrap;
+    line-height: 0.5;
+}
+
+.alignleft {
+    width: 50%;
+    text-align:left;
+}
+
+.alignright {
+    width: 50%;
+    text-align: right;
+}
